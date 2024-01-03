@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import random
 
 i = random.randint(-10000, 10000)

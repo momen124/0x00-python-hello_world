@@ -9,4 +9,7 @@ def pow(a, b):
         for _ in range(-b):
             result /= a
 
-    return result
+    # Format the result to limit the number of digits after the decimal point
+    formatted_result = "{:.15e}".format(result)
+
+    return formatted_result
