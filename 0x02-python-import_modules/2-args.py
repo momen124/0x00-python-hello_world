@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 import sys
 
+
 def print_argvs(args):
+
     """Prints the number and list of arguments.
 
     Args:
@@ -18,6 +20,7 @@ def print_argvs(args):
         print(f"{number_of_args} arguments:")
         for i in range(number_of_args):
             print(f"{i + 1}: {args[i]}")
+
 
 if __name__ == "__main__":
     print_argvs(sys.argv[1:])
