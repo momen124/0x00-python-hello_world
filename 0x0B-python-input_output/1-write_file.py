@@ -1,7 +1,16 @@
 #!/usr/bin/python3
-"""Defines a text file-reading function."""
+'''define a function to write text'''
 
 
 def write_file(filename="", text=""):
-    with open(filename, 'w' , encoding='utf-8') as file:
-        print(file.write(), end='')
+    '''
+    function to write text
+
+    Args:
+    filename: str file name
+    text: text to write in
+    Return: number of chars
+
+    '''
+    with open(filename, "w", encoding="utf-8") as f:
+        return f.write(text)
