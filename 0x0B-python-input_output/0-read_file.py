@@ -12,5 +12,5 @@ def read_file(filename=""):
     Prints:
         The content of the text file to the standard output (stdout).
     """
-    with open(filename, "r" , encoding='utf-8') as file:
+    with open(filename, 'r', encoding='utf-8') as file:
         print(file.read(), end='')
