@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""module_0"""
+
 
 def read_file(filename=""):
     """Reads the content of a text file and prints it to stdout.
