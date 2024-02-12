@@ -15,7 +15,7 @@ class Square(Rectangle):
             y (int, optional): The y-coordinate of the square's position.
             id (int, optional): The identity of the square.
         """
-        super().__init__(size, size, x, y, id)  # Call the super class with size for width and height
+        super().__init__(size, size, x, y, id)
 
     def __str__(self):
         """Return a string representation of the Square."""
@@ -48,6 +48,8 @@ class Square(Rectangle):
             'x': self.x,
             'y': self.y
         }
+
+
 def perimeter(self):
     """Return the perimeter of the square."""
     return 4 * self.width

@@ -117,6 +117,3 @@ class Rectangle(Base):
             'x': self.x,
             'y': self.y
         }
-def perimeter(self):
-    """Return the perimeter of the rectangle."""
-    return 2 * (self.width + self.height)
