@@ -1,5 +1,5 @@
 #!/usr/bin/node
-function CustomFun() {
+function CustomFun () {
   const x = parseInt(process.argv[2], 10);
   if (isNaN(x) || x === undefined) {
     console.log('Missing number of occurrences');
